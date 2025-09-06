@@ -9,7 +9,7 @@ $line-height: 1.64;
 
 $container-primary: 1110px;
 $container-sm: 540px;
-$gap: 20px;
-$gap-sm: calc($gap / 2);
-$gap-md: calc($gap * 1.5);
-$gap-lg: calc($gap * 2);
+$gap: 20px; 
+$gap-sm: calc($gap * 0.5); 
+$gap-md: calc($gap * 1.5); 
+$gap-lg: calc($gap * 2); 

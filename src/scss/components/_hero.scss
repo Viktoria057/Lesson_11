@@ -9,14 +9,14 @@
     &__title {
         margin-bottom: 60px;
         margin: 0 0 44px;
-    }
-
-    &__description {
+      }
+      
+     &__description {
         margin-bottom: 56px;
         color: $color-secondary;
-    }
-
-    &__buttom {
+      }
+      
+      &__buttom {
         display: flex;
         align-items: center;
         justify-content: center;
@@ -27,5 +27,5 @@
         min-width: 225px;
         min-height: 65px;
         text-transform: uppercase;
-    }
-}
+      }
+  }
