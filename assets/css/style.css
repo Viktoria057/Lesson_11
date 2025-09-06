@@ -388,21 +388,7 @@ a{
   text-decoration:none;
   color:#000000;
 }
-.section{
-  padding-top:110px;
-  padding-bottom:90px;
-  text-align:center;
-}
 
-.section__title{
-  font-weight:500;
-  line-height:1.2;
-  margin-bottom:40px;
-}
-
-.section__description{
-  color:#727272;
-}
 
 @media (max-width: 768px){
   h1{
