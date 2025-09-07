@@ -207,15 +207,8 @@ a{
   overflow:hidden;
   visibility:hidden;
 }
-
 .header{
-  padding-top:67px;
-  padding-bottom:141px;
   background-color:#eeeff1;
-}
-
-.navbar{
-  margin-bottom:144px;
 }
 .navbar__list{
   display:-webkit-box;
@@ -223,7 +216,7 @@ a{
   display:flex;
   -ms-flex-wrap:wrap;
       flex-wrap:wrap;
-  gap:10px 30px;
+  gap:0 30px;
   margin-left:-10px;
 }
 .navbar__link{
@@ -334,10 +327,28 @@ a{
 
 .about{
   background-color:#ffffff;
+  text-align:center;
+}
+.about__title{
+  font-weight:500;
+  line-height:1.2;
+  margin-bottom:40px;
+}
+.about__description{
+  color:#727272;
 }
 
 .work{
   background-color:#eeeff1;
+  text-align:center;
+}
+.work__title{
+  font-weight:500;
+  line-height:1.2;
+  margin-bottom:40px;
+}
+.work__description{
+  color:#727272;
 }
 
 .experience{
@@ -353,9 +364,6 @@ a{
   -ms-flex-wrap:wrap;
       flex-wrap:wrap;
   gap:40px;
-  -webkit-box-pack:justify;
-      -ms-flex-pack:justify;
-          justify-content:space-between;
 }
 .experience__item{
   display:-webkit-box;
@@ -388,18 +396,47 @@ a{
 .experience__item-image{
   display:block;
 }
-.section{
-  padding-top:110px;
-  padding-bottom:90px;
-  text-align:center;
+@media (768px <= width){
+  .header{
+    padding-top:67px;
+    padding-bottom:141px;
+  }
+  .navbar{
+    margin-bottom:144px;
+  }
+  .about{
+    padding-top:110px;
+    padding-bottom:90px;
+  }
+  .work{
+    padding-top:110px;
+    padding-bottom:90px;
+  }
+  .experience__container{
+    -webkit-box-pack:justify;
+        -ms-flex-pack:justify;
+            justify-content:space-between;
+  }
 }
-
-.section__title{
-  font-weight:500;
-  line-height:1.2;
-  margin-bottom:40px;
-}
-
-.section__description{
-  color:#727272;
+@media (width < 768px){
+  .header{
+    padding-top:40px;
+    padding-bottom:60px;
+  }
+  .navbar{
+    margin-bottom:60px;
+  }
+  .about{
+    padding-top:60px;
+    padding-bottom:50px;
+  }
+  .work{
+    padding-top:60px;
+    padding-bottom:50px;
+  }
+  .experience__container{
+    -webkit-box-pack:space-evenly;
+        -ms-flex-pack:space-evenly;
+            justify-content:space-evenly;
+  }
 }

@@ -13,3 +13,13 @@ $gap: 20px;
 $gap-sm: calc($gap * 0.5); 
 $gap-md: calc($gap * 1.5); 
 $gap-lg: calc($gap * 2); 
+
+
+$ul: 1380px; // Ultra large (very large screens)
+$xl: 1200px; // Extra large (large screens)
+$lg: 992px; // Large (medium screens)
+$md: 768px; // Medium (tablets)
+$sm: 576px; // Small (mobile devices)
+$xs: 480px; // Extra small (small mobile devices)
+$vs: 420px; // Very small (very small devices)
+$us: 360px; // Ultra small (ultra small devices)

@@ -1,12 +1,19 @@
 @use '../presets' as *;
+@use '../mixins' as *;
 
 .navbar {
-    margin-bottom: 144px;
-
+    @include md-min {
+        margin-bottom: 144px;
+      }
+    
+      @include md {
+        margin-bottom: 60px;
+      }
+    
     &__list {
         display: flex;
         flex-wrap: wrap;
-        gap: $gap-sm $gap-md;
+        gap: 0 $gap-md;
         margin-left: calc($gap-sm * -1);
       }
       &__link {

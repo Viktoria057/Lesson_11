@@ -1,18 +1,2 @@
-@use './presets' as *;
-@use './common' as *; 
+@use './common' as *;
 @use './components' as *;
-  
-  /* section */
-  .section {
-    padding-top: 110px;
-    padding-bottom: 90px;
-    text-align: center;
-  }
-  .section__title {
-    font-weight: $font-weight-medium;
-    line-height: $line-height-sm;
-    margin-bottom: 40px;
-  }
-  .section__description {
-    color: $color-secondary;
-  }
